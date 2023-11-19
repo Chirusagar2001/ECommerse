@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ecommerse.Ecommerse">
+      <class name="com.Bestbuy.Test.BestBuyTest">
         <methods>
-          <include name="searchfor"/>
-          <include name="orderwasplaced"/>
-          <include name="launchBrowser"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="VerifyOrderPlacement"/>
         </methods>
-      </class> <!-- ecommerse.Ecommerse -->
+      </class> <!-- com.Bestbuy.Test.BestBuyTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
